@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550285DC16DE796200152A29 /* StartMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550285DA16DE796200152A29 /* StartMenuViewController.m */; };
+		550285DD16DE796200152A29 /* StartMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550285DB16DE796200152A29 /* StartMenuViewController.xib */; };
+		550285DF16DE7CD500152A29 /* sutrisbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 550285DE16DE7CD500152A29 /* sutrisbackground.png */; };
+		550285E316DE7EAA00152A29 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550285E116DE7EAA00152A29 /* MyViewController.m */; };
+		550285E416DE7EAA00152A29 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550285E216DE7EAA00152A29 /* MyViewController.xib */; };
+		5510EFD016DC6C2900F32E1D /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510EFCF16DC6C2800F32E1D /* pause.png */; };
+		5510EFD216DC6FB400F32E1D /* pauseScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510EFD116DC6FB400F32E1D /* pauseScreen.png */; };
+		5510EFD416DC71EA00F32E1D /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510EFD316DC71EA00F32E1D /* continue.png */; };
+		551CCD5A16E0340100A263AA /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 551CCD5916E0340100A263AA /* A.m */; };
+		5561C14416DBE22F00C4602F /* sutris_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C14316DBE22F00C4602F /* sutris_background.png */; };
+		5561C16B16DC3D0400C4602F /* block1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16116DC3D0300C4602F /* block1.png */; };
+		5561C16C16DC3D0400C4602F /* block2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16216DC3D0300C4602F /* block2.png */; };
+		5561C16D16DC3D0400C4602F /* block3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16316DC3D0300C4602F /* block3.png */; };
+		5561C16E16DC3D0400C4602F /* block4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16416DC3D0300C4602F /* block4.png */; };
+		5561C16F16DC3D0400C4602F /* block5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16516DC3D0300C4602F /* block5.png */; };
+		5561C17016DC3D0400C4602F /* block6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16616DC3D0400C4602F /* block6.png */; };
+		5561C17116DC3D0400C4602F /* block7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16716DC3D0400C4602F /* block7.png */; };
+		5561C17216DC3D0400C4602F /* block8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16816DC3D0400C4602F /* block8.png */; };
+		5561C17316DC3D0400C4602F /* block9.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16916DC3D0400C4602F /* block9.png */; };
+		5561C17416DC3D0400C4602F /* block10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5561C16A16DC3D0400C4602F /* block10.png */; };
+		5585D46716D98A6D00D5D33E /* SutrisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585D46616D98A6D00D5D33E /* SutrisViewController.m */; };
+		5585D46A16D98AF000D5D33E /* SutrisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585D46916D98AF000D5D33E /* SutrisModel.m */; };
+		5585D46D16D98B6F00D5D33E /* BoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585D46C16D98B6F00D5D33E /* BoardCell.m */; };
+		55CD38EF16D9932D00942976 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CD38EE16D9932C00942976 /* Default.png */; };
+		55CD38F216DB00BF00942976 /* SutrisBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CD38F116DB00BF00942976 /* SutrisBlock.m */; };
+		55D394FD16DE82CC00D727CD /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D394FC16DE82CC00D727CD /* StartScene.m */; };
+		DC193E6013B679F600500B56 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DC193E5F13B679F600500B56 /* Game.m */; };
+		DC2721BB160CB09C00D88944 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2721BA160CB09C00D88944 /* Default-568h@2x.png */; };
+		DC2D726B1417CC5F003F5E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A38E13A94F1A005BD75D /* AppDelegate.m */; };
+		DC2D726C1417CC5F003F5E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A39113A94F1A005BD75D /* main.m */; };
+		DC2D726E1417CC5F003F5E5B /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DC193E5F13B679F600500B56 /* Game.m */; };
+		DC2D72941417CC5F003F5E5B /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A39513A94F1A005BD75D /* config.lua */; };
+		DC2D72AC1417CCB7003F5E5B /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2D72A71417CCB7003F5E5B /* fps_images.png */; };
+		DC2D72AD1417CCB7003F5E5B /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DC2D72A81417CCB7003F5E5B /* icon.icns */; };
+		DC2D72B41417CD02003F5E5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC2D72B01417CD02003F5E5B /* InfoPlist.strings */; };
+		DC2D72B51417CD02003F5E5B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2D72B21417CD02003F5E5B /* MainMenu.xib */; };
+		DC2D72D61417CE80003F5E5B /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2D72CE1417CE80003F5E5B /* libbox2d-mac.a */; };
+		DC2D72D71417CE80003F5E5B /* libchipmunk-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2D72CF1417CE80003F5E5B /* libchipmunk-mac.a */; };
+		DC2D72D81417CE80003F5E5B /* libchipmunk-spacemanager-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2D72D01417CE80003F5E5B /* libchipmunk-spacemanager-mac.a */; };
+		DC2D72D91417CE80003F5E5B /* libcocos2d-extensions-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2D72D11417CE80003F5E5B /* libcocos2d-extensions-mac.a */; };
+		DC2D72DA1417CE80003F5E5B /* libcocos2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2D72D21417CE80003F5E5B /* libcocos2d-mac.a */; };
+		DC2D72DB1417CE80003F5E5B /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2D72D31417CE80003F5E5B /* libcocosdenshion-mac.a */; };
+		DC2D72DC1417CE80003F5E5B /* libkobold2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2D72D41417CE80003F5E5B /* libkobold2d-mac.a */; };
+		DC3C6FBF14B8B2A300DAD281 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3C6FBE14B8B2A300DAD281 /* fps_images-hd.png */; };
+		DC3C6FC014B8B2A300DAD281 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3C6FBE14B8B2A300DAD281 /* fps_images-hd.png */; };
+		DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615013A969B600A7AC53 /* libbox2d-ios.a */; };
+		DC65615D13A969B600A7AC53 /* libchipmunk-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615113A969B600A7AC53 /* libchipmunk-ios.a */; };
+		DC65615E13A969B600A7AC53 /* libchipmunk-spacemanager-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615213A969B600A7AC53 /* libchipmunk-spacemanager-ios.a */; };
+		DC65616013A969B600A7AC53 /* libcocos2d-extensions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615413A969B600A7AC53 /* libcocos2d-extensions-ios.a */; };
+		DC65616113A969B600A7AC53 /* libcocos2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615513A969B600A7AC53 /* libcocos2d-ios.a */; };
+		DC65616213A969B600A7AC53 /* libcocos3d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615613A969B600A7AC53 /* libcocos3d-ios.a */; };
+		DC65616313A969B600A7AC53 /* libcocosdenshion-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615713A969B600A7AC53 /* libcocosdenshion-ios.a */; };
+		DC65616413A969B600A7AC53 /* libkobold2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615813A969B600A7AC53 /* libkobold2d-ios.a */; };
+		DC65616513A969B600A7AC53 /* libobjectal-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615913A969B600A7AC53 /* libobjectal-ios.a */; };
+		DC65616613A969B600A7AC53 /* libsneakyinput-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615A13A969B600A7AC53 /* libsneakyinput-ios.a */; };
+		DC65618C15114C9800E59F8A /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC65618B15114C9800E59F8A /* fps_images-ipadhd.png */; };
+		DCC1A0FC13A94ED5005BD75D /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FB13A94ED5005BD75D /* fps_images.png */; };
+		DCC1A0FE13A94ED5005BD75D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FD13A94ED5005BD75D /* Icon-72.png */; };
+		DCC1A10013A94ED5005BD75D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FF13A94ED5005BD75D /* Icon-Small-50.png */; };
+		DCC1A10213A94ED5005BD75D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10113A94ED5005BD75D /* Icon-Small.png */; };
+		DCC1A10413A94ED5005BD75D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10313A94ED5005BD75D /* Icon-Small@2x.png */; };
+		DCC1A10813A94ED5005BD75D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10713A94ED5005BD75D /* Icon@2x.png */; };
+		DCC1A10B13A94ED5005BD75D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10A13A94ED5005BD75D /* iTunesArtwork */; };
+		DCC1A3A913A94F1A005BD75D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A38E13A94F1A005BD75D /* AppDelegate.m */; };
+		DCC1A3AD13A94F1A005BD75D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A39113A94F1A005BD75D /* main.m */; };
+		DCC1A3AF13A94F1A005BD75D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A39513A94F1A005BD75D /* config.lua */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		550285D916DE796200152A29 /* StartMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMenuViewController.h; sourceTree = "<group>"; };
+		550285DA16DE796200152A29 /* StartMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartMenuViewController.m; sourceTree = "<group>"; };
+		550285DB16DE796200152A29 /* StartMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartMenuViewController.xib; sourceTree = "<group>"; };
+		550285DE16DE7CD500152A29 /* sutrisbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sutrisbackground.png; sourceTree = "<group>"; };
+		550285E016DE7EAA00152A29 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		550285E116DE7EAA00152A29 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		550285E216DE7EAA00152A29 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		5510EFCF16DC6C2800F32E1D /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		5510EFD116DC6FB400F32E1D /* pauseScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseScreen.png; sourceTree = "<group>"; };
+		5510EFD316DC71EA00F32E1D /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
+		551CCD5816E0340100A263AA /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		551CCD5916E0340100A263AA /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		5561C14316DBE22F00C4602F /* sutris_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sutris_background.png; sourceTree = "<group>"; };
+		5561C16116DC3D0300C4602F /* block1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block1.png; sourceTree = "<group>"; };
+		5561C16216DC3D0300C4602F /* block2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block2.png; sourceTree = "<group>"; };
+		5561C16316DC3D0300C4602F /* block3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block3.png; sourceTree = "<group>"; };
+		5561C16416DC3D0300C4602F /* block4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block4.png; sourceTree = "<group>"; };
+		5561C16516DC3D0300C4602F /* block5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block5.png; sourceTree = "<group>"; };
+		5561C16616DC3D0400C4602F /* block6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block6.png; sourceTree = "<group>"; };
+		5561C16716DC3D0400C4602F /* block7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block7.png; sourceTree = "<group>"; };
+		5561C16816DC3D0400C4602F /* block8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block8.png; sourceTree = "<group>"; };
+		5561C16916DC3D0400C4602F /* block9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block9.png; sourceTree = "<group>"; };
+		5561C16A16DC3D0400C4602F /* block10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block10.png; sourceTree = "<group>"; };
+		5585D46516D98A6C00D5D33E /* SutrisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SutrisViewController.h; sourceTree = "<group>"; };
+		5585D46616D98A6D00D5D33E /* SutrisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SutrisViewController.m; sourceTree = "<group>"; };
+		5585D46816D98AF000D5D33E /* SutrisModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SutrisModel.h; sourceTree = "<group>"; };
+		5585D46916D98AF000D5D33E /* SutrisModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SutrisModel.m; sourceTree = "<group>"; };
+		5585D46B16D98B6E00D5D33E /* BoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardCell.h; sourceTree = "<group>"; };
+		5585D46C16D98B6F00D5D33E /* BoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardCell.m; sourceTree = "<group>"; };
+		55CD38EE16D9932C00942976 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Projectfiles/Resources/Default.png; sourceTree = "<group>"; };
+		55CD38F016DB00BF00942976 /* SutrisBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SutrisBlock.h; sourceTree = "<group>"; };
+		55CD38F116DB00BF00942976 /* SutrisBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SutrisBlock.m; sourceTree = "<group>"; };
+		55D394FB16DE82CC00D727CD /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
+		55D394FC16DE82CC00D727CD /* StartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScene.m; sourceTree = "<group>"; };
+		DC193E5E13B679F600500B56 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		DC193E5F13B679F600500B56 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		DC2721BA160CB09C00D88944 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC2D72651417CC50003F5E5B /* BuildSettings-Debug-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-Mac.xcconfig"; sourceTree = "<group>"; };
+		DC2D72661417CC50003F5E5B /* BuildSettings-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Mac.xcconfig"; sourceTree = "<group>"; };
+		DC2D72671417CC50003F5E5B /* BuildSettings-Release-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Release-Mac.xcconfig"; sourceTree = "<group>"; };
+		DC2D729E1417CC5F003F5E5B /* Sutris-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sutris-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2D72A71417CCB7003F5E5B /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
+		DC2D72A81417CCB7003F5E5B /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		DC2D72A91417CCB7003F5E5B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2D72B11417CD02003F5E5B /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		DC2D72B31417CD02003F5E5B /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = MainMenu.xib; sourceTree = "<group>"; };
+		DC2D72CE1417CE80003F5E5B /* libbox2d-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbox2d-mac.a"; path = "/depot/_buildoutput/Kobold2D-biuxgpvahtzovcdhtwcumkfoolzw/Build/Products/Debug/libbox2d-mac.a"; sourceTree = "<absolute>"; };
+		DC2D72CF1417CE80003F5E5B /* libchipmunk-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libchipmunk-mac.a"; path = "/depot/_buildoutput/Kobold2D-biuxgpvahtzovcdhtwcumkfoolzw/Build/Products/Debug/libchipmunk-mac.a"; sourceTree = "<absolute>"; };
+		DC2D72D01417CE80003F5E5B /* libchipmunk-spacemanager-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libchipmunk-spacemanager-mac.a"; path = "/depot/_buildoutput/Kobold2D-biuxgpvahtzovcdhtwcumkfoolzw/Build/Products/Debug/libchipmunk-spacemanager-mac.a"; sourceTree = "<absolute>"; };
+		DC2D72D11417CE80003F5E5B /* libcocos2d-extensions-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d-extensions-mac.a"; path = "/depot/_buildoutput/Kobold2D-biuxgpvahtzovcdhtwcumkfoolzw/Build/Products/Debug/libcocos2d-extensions-mac.a"; sourceTree = "<absolute>"; };
+		DC2D72D21417CE80003F5E5B /* libcocos2d-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d-mac.a"; path = "/depot/_buildoutput/Kobold2D-biuxgpvahtzovcdhtwcumkfoolzw/Build/Products/Debug/libcocos2d-mac.a"; sourceTree = "<absolute>"; };
+		DC2D72D31417CE80003F5E5B /* libcocosdenshion-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocosdenshion-mac.a"; path = "/depot/_buildoutput/Kobold2D-biuxgpvahtzovcdhtwcumkfoolzw/Build/Products/Debug/libcocosdenshion-mac.a"; sourceTree = "<absolute>"; };
+		DC2D72D41417CE80003F5E5B /* libkobold2d-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkobold2d-mac.a"; path = "/depot/_buildoutput/Kobold2D-biuxgpvahtzovcdhtwcumkfoolzw/Build/Products/Debug/libkobold2d-mac.a"; sourceTree = "<absolute>"; };
+		DC2D72DE1417CEB9003F5E5B /* Prefix-Mac.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-Mac.pch"; sourceTree = "<group>"; };
+		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
+		DC3C6FBE14B8B2A300DAD281 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-hd.png"; sourceTree = "<group>"; };
+		DC65615013A969B600A7AC53 /* libbox2d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libbox2d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615113A969B600A7AC53 /* libchipmunk-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libchipmunk-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615213A969B600A7AC53 /* libchipmunk-spacemanager-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libchipmunk-spacemanager-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615413A969B600A7AC53 /* libcocos2d-extensions-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-extensions-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615513A969B600A7AC53 /* libcocos2d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615613A969B600A7AC53 /* libcocos3d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos3d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615713A969B600A7AC53 /* libcocosdenshion-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocosdenshion-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615813A969B600A7AC53 /* libkobold2d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libkobold2d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615913A969B600A7AC53 /* libobjectal-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libobjectal-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65615A13A969B600A7AC53 /* libsneakyinput-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libsneakyinput-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65618B15114C9800E59F8A /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-ipadhd.png"; sourceTree = "<group>"; };
+		DCC1A0E313A94ED5005BD75D /* Sutris-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sutris-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC1A0FB13A94ED5005BD75D /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
+		DCC1A0FD13A94ED5005BD75D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		DCC1A0FF13A94ED5005BD75D /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		DCC1A10113A94ED5005BD75D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		DCC1A10313A94ED5005BD75D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		DCC1A10713A94ED5005BD75D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DCC1A10913A94ED5005BD75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC1A10A13A94ED5005BD75D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		DCC1A38D13A94F1A005BD75D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCC1A38E13A94F1A005BD75D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCC1A39113A94F1A005BD75D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC1A39213A94F1A005BD75D /* Prefix-iOS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-iOS.pch"; sourceTree = "<group>"; };
+		DCC1A39513A94F1A005BD75D /* config.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode.applescript; fileEncoding = 4; path = config.lua; sourceTree = "<group>"; };
+		DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-iOS.xcconfig"; sourceTree = "<group>"; };
+		DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Release-iOS.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2D726F1417CC5F003F5E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2D72D61417CE80003F5E5B /* libbox2d-mac.a in Frameworks */,
+				DC2D72D71417CE80003F5E5B /* libchipmunk-mac.a in Frameworks */,
+				DC2D72D81417CE80003F5E5B /* libchipmunk-spacemanager-mac.a in Frameworks */,
+				DC2D72D91417CE80003F5E5B /* libcocos2d-extensions-mac.a in Frameworks */,
+				DC2D72DA1417CE80003F5E5B /* libcocos2d-mac.a in Frameworks */,
+				DC2D72DB1417CE80003F5E5B /* libcocosdenshion-mac.a in Frameworks */,
+				DC2D72DC1417CE80003F5E5B /* libkobold2d-mac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC1A0E013A94ED5005BD75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */,
+				DC65615D13A969B600A7AC53 /* libchipmunk-ios.a in Frameworks */,
+				DC65615E13A969B600A7AC53 /* libchipmunk-spacemanager-ios.a in Frameworks */,
+				DC65616013A969B600A7AC53 /* libcocos2d-extensions-ios.a in Frameworks */,
+				DC65616113A969B600A7AC53 /* libcocos2d-ios.a in Frameworks */,
+				DC65616213A969B600A7AC53 /* libcocos3d-ios.a in Frameworks */,
+				DC65616313A969B600A7AC53 /* libcocosdenshion-ios.a in Frameworks */,
+				DC65616413A969B600A7AC53 /* libkobold2d-ios.a in Frameworks */,
+				DC65616513A969B600A7AC53 /* libobjectal-ios.a in Frameworks */,
+				DC65616613A969B600A7AC53 /* libsneakyinput-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2D72A11417CCB7003F5E5B /* Projectfiles-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				DC2D72A21417CCB7003F5E5B /* Resources */,
+			);
+			path = "Projectfiles-Mac";
+			sourceTree = "<group>";
+		};
+		DC2D72A21417CCB7003F5E5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC2D72A71417CCB7003F5E5B /* fps_images.png */,
+				DC2D72A81417CCB7003F5E5B /* icon.icns */,
+				DC2D72A91417CCB7003F5E5B /* Info.plist */,
+				DC2D72AF1417CD02003F5E5B /* English.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC2D72AF1417CD02003F5E5B /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				DC2D72B01417CD02003F5E5B /* InfoPlist.strings */,
+				DC2D72B21417CD02003F5E5B /* MainMenu.xib */,
+			);
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		DCC1A0D613A94EC0005BD75D = {
+			isa = PBXGroup;
+			children = (
+				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
+				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
+				DC2D72A11417CCB7003F5E5B /* Projectfiles-Mac */,
+				DCFA90ED13B4F6A0009DD35A /* BuildSettings */,
+				DCC1A0E613A94ED5005BD75D /* Frameworks */,
+				DCC1A0E413A94ED5005BD75D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC1A0E413A94ED5005BD75D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC1A0E313A94ED5005BD75D /* Sutris-iOS.app */,
+				DC2D729E1417CC5F003F5E5B /* Sutris-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC1A0E613A94ED5005BD75D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DCC1A0F813A94ED5005BD75D /* Resources */,
+				550285D916DE796200152A29 /* StartMenuViewController.h */,
+				550285DA16DE796200152A29 /* StartMenuViewController.m */,
+				550285DB16DE796200152A29 /* StartMenuViewController.xib */,
+				550285E016DE7EAA00152A29 /* MyViewController.h */,
+				550285E116DE7EAA00152A29 /* MyViewController.m */,
+				550285E216DE7EAA00152A29 /* MyViewController.xib */,
+			);
+			path = "Projectfiles-iOS";
+			sourceTree = "<group>";
+		};
+		DCC1A0F813A94ED5005BD75D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				550285DE16DE7CD500152A29 /* sutrisbackground.png */,
+				55CD38EE16D9932C00942976 /* Default.png */,
+				DC2721BA160CB09C00D88944 /* Default-568h@2x.png */,
+				DCC1A0FB13A94ED5005BD75D /* fps_images.png */,
+				DC3C6FBE14B8B2A300DAD281 /* fps_images-hd.png */,
+				DC65618B15114C9800E59F8A /* fps_images-ipadhd.png */,
+				DCC1A0FD13A94ED5005BD75D /* Icon-72.png */,
+				DCC1A0FF13A94ED5005BD75D /* Icon-Small-50.png */,
+				DCC1A10113A94ED5005BD75D /* Icon-Small.png */,
+				DCC1A10313A94ED5005BD75D /* Icon-Small@2x.png */,
+				DCC1A10713A94ED5005BD75D /* Icon@2x.png */,
+				DCC1A10913A94ED5005BD75D /* Info.plist */,
+				DCC1A10A13A94ED5005BD75D /* iTunesArtwork */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCC1A38C13A94F1A005BD75D /* Projectfiles */ = {
+			isa = PBXGroup;
+			children = (
+				5585D46516D98A6C00D5D33E /* SutrisViewController.h */,
+				5585D46616D98A6D00D5D33E /* SutrisViewController.m */,
+				5585D46816D98AF000D5D33E /* SutrisModel.h */,
+				5585D46916D98AF000D5D33E /* SutrisModel.m */,
+				55CD38F016DB00BF00942976 /* SutrisBlock.h */,
+				55CD38F116DB00BF00942976 /* SutrisBlock.m */,
+				5585D46B16D98B6E00D5D33E /* BoardCell.h */,
+				5585D46C16D98B6F00D5D33E /* BoardCell.m */,
+				DC193E5E13B679F600500B56 /* Game.h */,
+				DC193E5F13B679F600500B56 /* Game.m */,
+				DCC1A38D13A94F1A005BD75D /* AppDelegate.h */,
+				DCC1A38E13A94F1A005BD75D /* AppDelegate.m */,
+				55D394FB16DE82CC00D727CD /* StartScene.h */,
+				55D394FC16DE82CC00D727CD /* StartScene.m */,
+				DCC1A39413A94F1A005BD75D /* Resources */,
+				DCC1A3CF13A94F2C005BD75D /* Supporting Files */,
+				551CCD5816E0340100A263AA /* A.h */,
+				551CCD5916E0340100A263AA /* A.m */,
+			);
+			path = Projectfiles;
+			sourceTree = "<group>";
+		};
+		DCC1A39413A94F1A005BD75D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5510EFD316DC71EA00F32E1D /* continue.png */,
+				5510EFD116DC6FB400F32E1D /* pauseScreen.png */,
+				5510EFCF16DC6C2800F32E1D /* pause.png */,
+				5561C16116DC3D0300C4602F /* block1.png */,
+				5561C16216DC3D0300C4602F /* block2.png */,
+				5561C16316DC3D0300C4602F /* block3.png */,
+				5561C16416DC3D0300C4602F /* block4.png */,
+				5561C16516DC3D0300C4602F /* block5.png */,
+				5561C16616DC3D0400C4602F /* block6.png */,
+				5561C16716DC3D0400C4602F /* block7.png */,
+				5561C16816DC3D0400C4602F /* block8.png */,
+				5561C16916DC3D0400C4602F /* block9.png */,
+				5561C16A16DC3D0400C4602F /* block10.png */,
+				5561C14316DBE22F00C4602F /* sutris_background.png */,
+				DCC1A39513A94F1A005BD75D /* config.lua */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCC1A3CF13A94F2C005BD75D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC1A39113A94F1A005BD75D /* main.m */,
+				DCC1A39213A94F1A005BD75D /* Prefix-iOS.pch */,
+				DC2D72DE1417CEB9003F5E5B /* Prefix-Mac.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCFA90ED13B4F6A0009DD35A /* BuildSettings */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */,
+				DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */,
+				DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */,
+				DC2D72651417CC50003F5E5B /* BuildSettings-Debug-Mac.xcconfig */,
+				DC2D72671417CC50003F5E5B /* BuildSettings-Release-Mac.xcconfig */,
+				DC2D72661417CC50003F5E5B /* BuildSettings-Mac.xcconfig */,
+			);
+			path = BuildSettings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2D72691417CC5F003F5E5B /* Sutris-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2D729B1417CC5F003F5E5B /* Build configuration list for PBXNativeTarget "Sutris-Mac" */;
+			buildPhases = (
+				DC2D726A1417CC5F003F5E5B /* Sources */,
+				DC2D726F1417CC5F003F5E5B /* Frameworks */,
+				DC2D728A1417CC5F003F5E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sutris-Mac";
+			productName = "Hello-World-iOS";
+			productReference = DC2D729E1417CC5F003F5E5B /* Sutris-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC1A0E213A94ED5005BD75D /* Sutris-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC1A25313A94ED7005BD75D /* Build configuration list for PBXNativeTarget "Sutris-iOS" */;
+			buildPhases = (
+				DCC1A0DF13A94ED5005BD75D /* Sources */,
+				DCC1A0E013A94ED5005BD75D /* Frameworks */,
+				DCC1A0E113A94ED5005BD75D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sutris-iOS";
+			productName = "Hello-World-iOS";
+			productReference = DCC1A0E313A94ED5005BD75D /* Sutris-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC1A0D813A94EC0005BD75D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "Sutris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = DCC1A0D613A94EC0005BD75D;
+			productRefGroup = DCC1A0E413A94ED5005BD75D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC1A0E213A94ED5005BD75D /* Sutris-iOS */,
+				DC2D72691417CC5F003F5E5B /* Sutris-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2D728A1417CC5F003F5E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2D72941417CC5F003F5E5B /* config.lua in Resources */,
+				DC2D72AC1417CCB7003F5E5B /* fps_images.png in Resources */,
+				DC2D72AD1417CCB7003F5E5B /* icon.icns in Resources */,
+				DC2D72B41417CD02003F5E5B /* InfoPlist.strings in Resources */,
+				DC2D72B51417CD02003F5E5B /* MainMenu.xib in Resources */,
+				DC3C6FC014B8B2A300DAD281 /* fps_images-hd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC1A0E113A94ED5005BD75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC1A0FC13A94ED5005BD75D /* fps_images.png in Resources */,
+				DCC1A0FE13A94ED5005BD75D /* Icon-72.png in Resources */,
+				DCC1A10013A94ED5005BD75D /* Icon-Small-50.png in Resources */,
+				DCC1A10213A94ED5005BD75D /* Icon-Small.png in Resources */,
+				DCC1A10413A94ED5005BD75D /* Icon-Small@2x.png in Resources */,
+				DCC1A10813A94ED5005BD75D /* Icon@2x.png in Resources */,
+				DCC1A10B13A94ED5005BD75D /* iTunesArtwork in Resources */,
+				DCC1A3AF13A94F1A005BD75D /* config.lua in Resources */,
+				DC3C6FBF14B8B2A300DAD281 /* fps_images-hd.png in Resources */,
+				DC65618C15114C9800E59F8A /* fps_images-ipadhd.png in Resources */,
+				DC2721BB160CB09C00D88944 /* Default-568h@2x.png in Resources */,
+				55CD38EF16D9932D00942976 /* Default.png in Resources */,
+				5561C14416DBE22F00C4602F /* sutris_background.png in Resources */,
+				5561C16B16DC3D0400C4602F /* block1.png in Resources */,
+				5561C16C16DC3D0400C4602F /* block2.png in Resources */,
+				5561C16D16DC3D0400C4602F /* block3.png in Resources */,
+				5561C16E16DC3D0400C4602F /* block4.png in Resources */,
+				5561C16F16DC3D0400C4602F /* block5.png in Resources */,
+				5561C17016DC3D0400C4602F /* block6.png in Resources */,
+				5561C17116DC3D0400C4602F /* block7.png in Resources */,
+				5561C17216DC3D0400C4602F /* block8.png in Resources */,
+				5561C17316DC3D0400C4602F /* block9.png in Resources */,
+				5561C17416DC3D0400C4602F /* block10.png in Resources */,
+				5510EFD016DC6C2900F32E1D /* pause.png in Resources */,
+				5510EFD216DC6FB400F32E1D /* pauseScreen.png in Resources */,
+				5510EFD416DC71EA00F32E1D /* continue.png in Resources */,
+				550285DD16DE796200152A29 /* StartMenuViewController.xib in Resources */,
+				550285DF16DE7CD500152A29 /* sutrisbackground.png in Resources */,
+				550285E416DE7EAA00152A29 /* MyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2D726A1417CC5F003F5E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2D726B1417CC5F003F5E5B /* AppDelegate.m in Sources */,
+				DC2D726C1417CC5F003F5E5B /* main.m in Sources */,
+				DC2D726E1417CC5F003F5E5B /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC1A0DF13A94ED5005BD75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC1A3A913A94F1A005BD75D /* AppDelegate.m in Sources */,
+				DCC1A3AD13A94F1A005BD75D /* main.m in Sources */,
+				DC193E6013B679F600500B56 /* Game.m in Sources */,
+				5585D46716D98A6D00D5D33E /* SutrisViewController.m in Sources */,
+				5585D46A16D98AF000D5D33E /* SutrisModel.m in Sources */,
+				5585D46D16D98B6F00D5D33E /* BoardCell.m in Sources */,
+				55CD38F216DB00BF00942976 /* SutrisBlock.m in Sources */,
+				550285DC16DE796200152A29 /* StartMenuViewController.m in Sources */,
+				550285E316DE7EAA00152A29 /* MyViewController.m in Sources */,
+				55D394FD16DE82CC00D727CD /* StartScene.m in Sources */,
+				551CCD5A16E0340100A263AA /* A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC2D72B01417CD02003F5E5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2D72B11417CD02003F5E5B /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC2D72B21417CD02003F5E5B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2D72B31417CD02003F5E5B /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2D729C1417CC5F003F5E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2D72651417CC50003F5E5B /* BuildSettings-Debug-Mac.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "Sutris-Mac";
+			};
+			name = Debug;
+		};
+		DC2D729D1417CC5F003F5E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2D72671417CC50003F5E5B /* BuildSettings-Release-Mac.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "Sutris-Mac";
+			};
+			name = Release;
+		};
+		DCC1A0DD13A94EC0005BD75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		DCC1A0DE13A94EC0005BD75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		DCC1A25413A94ED7005BD75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "Sutris-iOS";
+			};
+			name = Debug;
+		};
+		DCC1A25513A94ED7005BD75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "Sutris-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2D729B1417CC5F003F5E5B /* Build configuration list for PBXNativeTarget "Sutris-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2D729C1417CC5F003F5E5B /* Debug */,
+				DC2D729D1417CC5F003F5E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "Sutris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC1A0DD13A94EC0005BD75D /* Debug */,
+				DCC1A0DE13A94EC0005BD75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC1A25313A94ED7005BD75D /* Build configuration list for PBXNativeTarget "Sutris-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC1A25413A94ED7005BD75D /* Debug */,
+				DCC1A25513A94ED7005BD75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC1A0D813A94EC0005BD75D /* Project object */;
+}
