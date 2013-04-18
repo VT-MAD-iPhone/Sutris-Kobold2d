@@ -33,6 +33,10 @@
 		55CD38EF16D9932D00942976 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CD38EE16D9932C00942976 /* Default.png */; };
 		55CD38F216DB00BF00942976 /* SutrisBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CD38F116DB00BF00942976 /* SutrisBlock.m */; };
 		55D394FD16DE82CC00D727CD /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D394FC16DE82CC00D727CD /* StartScene.m */; };
+		9E5F2D2F1720ABEE00502EAD /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F2D2E1720ABEE00502EAD /* NSMutableArray+Queue.m */; };
+		9E5F2D301720ABEE00502EAD /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F2D2E1720ABEE00502EAD /* NSMutableArray+Queue.m */; };
+		9E5F2D331720AC0A00502EAD /* TouchDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F2D321720AC0A00502EAD /* TouchDemoViewController.m */; };
+		9E5F2D341720AC0A00502EAD /* TouchDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F2D321720AC0A00502EAD /* TouchDemoViewController.m */; };
 		DC193E6013B679F600500B56 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DC193E5F13B679F600500B56 /* Game.m */; };
 		DC2721BB160CB09C00D88944 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2721BA160CB09C00D88944 /* Default-568h@2x.png */; };
 		DC2D726B1417CC5F003F5E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A38E13A94F1A005BD75D /* AppDelegate.m */; };
@@ -52,7 +56,7 @@
 		DC2D72DC1417CE80003F5E5B /* libkobold2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2D72D41417CE80003F5E5B /* libkobold2d-mac.a */; };
 		DC3C6FBF14B8B2A300DAD281 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3C6FBE14B8B2A300DAD281 /* fps_images-hd.png */; };
 		DC3C6FC014B8B2A300DAD281 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3C6FBE14B8B2A300DAD281 /* fps_images-hd.png */; };
-		DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615013A969B600A7AC53 /* libbox2d-ios.a */; };
+		DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615013A969B600A7AC53 /* libbox2d-ios.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		DC65615D13A969B600A7AC53 /* libchipmunk-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615113A969B600A7AC53 /* libchipmunk-ios.a */; };
 		DC65615E13A969B600A7AC53 /* libchipmunk-spacemanager-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615213A969B600A7AC53 /* libchipmunk-spacemanager-ios.a */; };
 		DC65616013A969B600A7AC53 /* libcocos2d-extensions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615413A969B600A7AC53 /* libcocos2d-extensions-ios.a */; };
@@ -110,10 +114,13 @@
 		55CD38F116DB00BF00942976 /* SutrisBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SutrisBlock.m; sourceTree = "<group>"; };
 		55D394FB16DE82CC00D727CD /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
 		55D394FC16DE82CC00D727CD /* StartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScene.m; sourceTree = "<group>"; };
+		9E5F2D2D1720ABEE00502EAD /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Queue.h"; sourceTree = "<group>"; };
+		9E5F2D2E1720ABEE00502EAD /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Queue.m"; sourceTree = "<group>"; };
+		9E5F2D311720AC0A00502EAD /* TouchDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDemoViewController.h; sourceTree = "<group>"; };
+		9E5F2D321720AC0A00502EAD /* TouchDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDemoViewController.m; sourceTree = "<group>"; };
 		DC193E5E13B679F600500B56 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		DC193E5F13B679F600500B56 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		DC2721BA160CB09C00D88944 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		DC2D72651417CC50003F5E5B /* BuildSettings-Debug-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC2D72661417CC50003F5E5B /* BuildSettings-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC2D72671417CC50003F5E5B /* BuildSettings-Release-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Release-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC2D729E1417CC5F003F5E5B /* Sutris-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sutris-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -289,6 +296,10 @@
 		DCC1A38C13A94F1A005BD75D /* Projectfiles */ = {
 			isa = PBXGroup;
 			children = (
+				9E5F2D311720AC0A00502EAD /* TouchDemoViewController.h */,
+				9E5F2D321720AC0A00502EAD /* TouchDemoViewController.m */,
+				9E5F2D2D1720ABEE00502EAD /* NSMutableArray+Queue.h */,
+				9E5F2D2E1720ABEE00502EAD /* NSMutableArray+Queue.m */,
 				5585D46516D98A6C00D5D33E /* SutrisViewController.h */,
 				5585D46616D98A6D00D5D33E /* SutrisViewController.m */,
 				5585D46816D98AF000D5D33E /* SutrisModel.h */,
@@ -349,7 +360,6 @@
 				DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */,
 				DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */,
 				DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */,
-				DC2D72651417CC50003F5E5B /* BuildSettings-Debug-Mac.xcconfig */,
 				DC2D72671417CC50003F5E5B /* BuildSettings-Release-Mac.xcconfig */,
 				DC2D72661417CC50003F5E5B /* BuildSettings-Mac.xcconfig */,
 			);
@@ -399,7 +409,7 @@
 		DCC1A0D813A94EC0005BD75D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "Sutris" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -480,6 +490,8 @@
 				DC2D726B1417CC5F003F5E5B /* AppDelegate.m in Sources */,
 				DC2D726C1417CC5F003F5E5B /* main.m in Sources */,
 				DC2D726E1417CC5F003F5E5B /* Game.m in Sources */,
+				9E5F2D301720ABEE00502EAD /* NSMutableArray+Queue.m in Sources */,
+				9E5F2D341720AC0A00502EAD /* TouchDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,8 @@
 				550285E316DE7EAA00152A29 /* MyViewController.m in Sources */,
 				55D394FD16DE82CC00D727CD /* StartScene.m in Sources */,
 				551CCD5A16E0340100A263AA /* A.m in Sources */,
+				9E5F2D2F1720ABEE00502EAD /* NSMutableArray+Queue.m in Sources */,
+				9E5F2D331720AC0A00502EAD /* TouchDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,8 +539,8 @@
 /* Begin XCBuildConfiguration section */
 		DC2D729C1417CC5F003F5E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC2D72651417CC50003F5E5B /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Sutris-Mac";
 			};
 			name = Debug;
@@ -535,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC2D72671417CC50003F5E5B /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Sutris-Mac";
 			};
 			name = Release;
@@ -542,12 +557,14 @@
 		DCC1A0DD13A94EC0005BD75D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		DCC1A0DE13A94EC0005BD75D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -555,7 +572,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Sutris-iOS";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -563,7 +582,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Sutris-iOS";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
